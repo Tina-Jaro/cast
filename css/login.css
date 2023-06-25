@@ -1,0 +1,392 @@
+@font-face {
+    font-family: 'daxlinepro-light';
+    src: url(../fonts/daxlinepro-light.ttf);
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'daxlinepro-light';
+}
+
+.section {
+    display: flex;
+    height: 100%;
+
+}
+
+.img-section {
+    width: 50%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #118967;
+    background-image: url(../assets/login.png);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 90px;
+    box-sizing: border-box;
+
+}
+
+/* .image {
+    margin: auto;
+    filter: brightness(50%);
+    width: 100%;
+} */
+.imgCast {
+    width: 220px;
+}
+
+.cast {
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.pLogin {
+    color: #BFC0C0;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+.smarter {
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: 'daxlinepro-extrabold';
+}
+
+.seam {
+    color: white;
+    font-family: 'daxlinepro-light';
+}
+
+.container {
+    background: linear-gradient(rgba(245, 238, 238, 0.2), rgba(247, 239, 239, 0.2)), url(../assets/bgdLogin.png);
+    display: flex;
+    align-items: flex-start;
+    padding-top: 1.25rem;
+    padding-left: 3rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    width: 50%;
+    height: auto;
+}
+
+.loginText {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    color: #18A67E;
+    font-family: 'daxlinepro-light';
+}
+
+.second-container {
+    width: 380px;
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-top: 0.1rem;
+    gap: 8px;
+}
+
+
+.third-container {
+    margin-top: 150px;
+    margin-bottom: 1.25rem;
+    width: 85%;
+}
+
+a {
+    text-decoration: none;
+    color: #a0a0a0;
+}
+
+a:visited {
+    color: #a0a0a0;
+}
+
+.sect {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.text {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width:767px) {
+    .section {
+        display: inline-block;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .imgCast {
+        width: 180px;
+    }
+
+    .img-section {
+        width: 100%;
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cast {
+        padding: 35px;
+        justify-content: center;
+    }
+
+    .loginText {
+        margin-top: 10px;
+        margin-bottom: 30px;
+        color: #18A67E;
+        font-family: 'daxlinepro-extrabold';
+        text-align: center;
+        font-weight: bolder;
+    }
+
+    .third-container {
+        margin-top: 50px;
+        margin-bottom: 1.25rem;
+        width: 85%;
+    }
+
+    .container {
+        width: 82%;
+    }
+
+    .second-container {
+        width: 300px;
+    }
+
+}
+
+@media screen and (min-width:767px) and (max-width:1025px) {
+    .section {
+        display: inline-block;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .imgCast {
+        width: 180px;
+    }
+
+    .img-section {
+        width: 100%;
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cast {
+        padding: 45px;
+    }
+
+    .loginText {
+        margin-top: 10px;
+        margin-bottom: 30px;
+        color: #18A67E;
+        font-size: 35px;
+        font-family: 'daxlinepro-extrabold';
+        text-align: center;
+        font-weight: bolder;
+    }
+
+    .third-container {
+        margin-top: 50px;
+        margin-bottom: 1.25rem;
+        width: 87%;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .second-container {
+        width: 450px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .email-address {
+        font-size: 20px;
+    }
+
+    .password{
+        font-size: 20px;
+    }
+
+    .form{
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-width:767px) and (min-width:1025px) and (max-width:1280px){
+    .second-container {
+       margin-top: 58px;
+    }
+
+}
+
+@media screen and (min-width:767px) and (min-width:1500px){
+    .second-container {
+        margin-top: 2058px;
+     }
+}
+
+.form {
+    padding-top: 0px;
+
+}
+
+.form-div {
+    border-radius: 0.375rem;
+}
+
+.email {
+    width: 100%;
+}
+
+.email-address {
+    color: #374B43;
+}
+
+input[type="email"] {
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    box-sizing: border-box;
+    border-radius: 0.375rem;
+    color: #24292e;
+    margin-top: 10px;
+}
+
+.email-input {
+    position: relative;
+    display: block;
+    width: 100%;
+    border-radius: 0.375rem;
+    border: 1px solid #808181;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: #212121;
+}
+
+.password-input:focus {
+    z-index: 10;
+    border: 1px solid;
+    outline: none;
+    box-shadow: 0 0 0 0.1rem #18A67E;
+}
+
+.email-input:focus {
+    z-index: 10;
+    border: 1px solid;
+    outline: none;
+    box-shadow: 0 0 0 0.1rem #18A67E;
+}
+
+.appearance-none {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+
+::placeholder {
+    color: #BFC0C0;
+}
+
+
+.password {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* .password-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+} */
+
+.password-text {
+    color: #374B43;
+    font-family: 'daxlinepro-light';
+}
+
+.forgot-password {
+    font-size: 0.75rem;
+}
+
+.a-forgot-password {
+    font-weight: 700;
+    color: black;
+}
+
+.section-password {
+    width: 100%;
+    position: relative;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.password-input {
+    position: absolute;
+    z-index: 10;
+    display: block;
+    appearance: none;
+    border-radius: 0.375rem;
+    border: 1px solid #808181;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: #a9a9a9;
+    left: 0%;
+    right: 0%;
+    margin-top: 10px;
+}
+
+
+.submit {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.button {
+    display: flex;
+    width: 100%;
+    border-radius: 0.375rem;
+    justify-content: center;
+    border: 1px solid transparent;
+    background-color: #DEEA87;
+    padding: 10px;
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #374B43;
+    position: relative;
+    cursor: pointer;
+    font-family: 'daxlinepro-light';
+}
+
+.button:hover {
+    background-color: #18A67E;
+    color: white;
+    cursor: pointer;
+}
