@@ -163,8 +163,9 @@ a:visited {
     }
 
     .container {
-        width: 82%;
-        background-color: red;
+        /* width: 100%; */
+        display: flex;
+        /* background-color: red; */ 
         background: none;
         padding-left: 0px;
         
@@ -180,7 +181,7 @@ a:visited {
     }
 
     .password-input {
-        width: 300px !important;
+        width: 305px !important;
         padding: 15px !important;
     }
 
