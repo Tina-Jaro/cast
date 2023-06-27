@@ -120,6 +120,9 @@ a {
 
 hr{
     width: 150%;
+    background-color: #E2E2E2;
+    height: 1px;
+    border: none;
     margin-top: 0.5px;
 }
 
@@ -156,8 +159,6 @@ hr{
     left: 100px;
 }
 
-
-
 .number{
     display: flex;
     flex-direction: center;
@@ -181,11 +182,6 @@ hr{
     align-items: center;
     color: #FFFFFF;
 }
-
-
-/* a:visited {
-    color: #a0a0a0;
-} */
 
 .sect {
     margin-top: 1.25rem;
@@ -228,16 +224,14 @@ hr{
 
 input[type="password"] {
     width: 100%;
-    display: flex;
     padding: 0.5rem 0.75rem;
     background-color: #fff;
-    border: 1px solid #a9a9a9;
+    border: 1px solid #808181;
     box-sizing: border-box;
     border-radius: 0.375rem;
     color: #24292e;
     margin-top: 10px;
 }
-
 
 .elections{
     color: #24292e;
@@ -282,8 +276,6 @@ input[type="text"] {
     box-shadow: 0 0 0 0.1rem #18A67E;
 }
 
-
-
 ::placeholder {
     color: #BFC0C0;
 }
@@ -308,6 +300,7 @@ input[type="text"] {
     color: #374B43;
     position: relative;
     cursor: pointer;
+    font-family: 'daxlinepro-light';
 }
 
 .button:hover {
